@@ -1,0 +1,18 @@
+{
+    "name": "BotSiwar",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "fa53d040-4c8c-11e9-a237-2f36dc5e1d52",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "/Users/siwarmadrane/Desktop/Panorame/panoramebotsiwar-src/BotSiwar.bot"
+}

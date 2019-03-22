@@ -1,0 +1,41 @@
+{
+  "name": "panoramebotsiwar",
+  "padlock": "2dVyCx+6kwL1YMF40m4pBA==!tAogGtKbB4SJMRovyWwQ1jdjV3UoA5ew4b8sj6ib+TWQ6Zx5y0A7T7j64g4hPssJ",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "253e5688-97c3-4398-8fae-9abafad95cef",
+      "subscriptionId": "1022a3c6-3221-4cdf-ae91-8f156918efe5",
+      "resourceGroup": "chatbots",
+      "serviceName": "panoramebotsiwar",
+      "type": "abs",
+      "name": "panoramebotsiwar",
+      "id": "1"
+    },
+    {
+      "connectionString": "bkiURF20pphZQgFyl2A5Hg==!zFDkWh6rU3exOtA+d+JfXS6uh75rCejPNJ0B+YVFKKvcyPHXvWKK9TKf84zWbxknOwnOhIBD/glMrKQycGdkvn/H+cUgvJBL8bE/hsBwB8AYHWTi23xHYoD8/nPtIcfOheifNVD1BMnBdmX+zitjapYkw5I1NQBG+44VYACuTlUln6gitGpXrmtiPfjQX3Nm1ME1ulOTBQgWSsAd9TiFsL2dESCpXiV7RpzzK0ppp3E=",
+      "tenantId": "253e5688-97c3-4398-8fae-9abafad95cef",
+      "subscriptionId": "1022a3c6-3221-4cdf-ae91-8f156918efe5",
+      "resourceGroup": "chatbots",
+      "serviceName": "panoramebotsiwar80e5",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "1a1eb379-5340-4282-bf22-a99392bd6b2f",
+      "appPassword": "4sD4LqbF+Ob9/x8wL0hESg==!rMtCESJixPIthTiFiYy0Tr24OMVHqhXrw9J8K490Pxc=",
+      "endpoint": "https://panoramebotsiwar.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    }
+  ]
+}
