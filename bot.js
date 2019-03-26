@@ -4,6 +4,7 @@
 // bot.js is your bot's main entry point to handle incoming activities.
 
 const { ActivityTypes } = require('botbuilder');
+const { stages } = require('./data/stages');
 
 // Turn counter property
 const TURN_COUNTER_PROPERTY = 'turnCounterProperty';
@@ -34,6 +35,8 @@ class EchoBot {
             let count = await this.countProperty.get(turnContext);
             count = count === undefined ? 1 : ++count;
             await turnContext.sendActivity(`${ count }: Panora.Me You said "${ turnContext.activity.text }"`);
+            var len = stages.length;
+            await turnContext.sendActivity(`The scenario is lock and loaded and it contains : ${len} stages`);
             // increment and set turn counter.
             await this.countProperty.set(turnContext, count);
         } else {

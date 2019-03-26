@@ -1,0 +1,499 @@
+[
+    {
+         "id" : "startingPoint",
+         "welcomeMessage": {
+              "text": "Welcome to XXX parc, where do you want to start?",
+              "mediaUrl": null
+         },
+         "stages" : ["stage1", "stage4", "stage5"]
+    },
+    {
+         "id" : "stage1",
+         "startMessage" : {
+              "text" : "WELCOME TO THE PRESIDENTS ROOM!!",
+              "mediaUrl" : null
+         },
+         "endMessage" : {
+              "text" : "You've finished with the political room ! What's next?➡️",
+              "mediaUrl" : null
+         },
+         "nextStages" : ["stage2", "stage3", "stage4"],
+         "challenges": [
+              {
+                   "id" : "challenge1_1",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Choose and take a picture with your favorite candidate",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Hillary Clinton",
+                             "response" : {
+                                  "text" : "Hillary was picked, do something hysterical!",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "George W. Bush",
+                             "response": {
+                                  "text": "Bush will bring democracy to your country",
+                                  "url": null
+                             }
+                        },
+                        {
+                             "text": "Barack Obama",
+                             "response": { 
+                                 "text": "Obama said YES WE CAN!!!", 
+                                 "url": null 
+                             }
+                        }
+                   ]
+              },
+              {
+                   "id" : "challenge1_2",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Choose and take a picture with your favorite candidate",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Bill Clinton",
+                             "response" : {
+                                  "text" : "Monica Lewinsky? Don't know her! Let's take a picture",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Roman",
+                             "response": { 
+                                  "text": "roman was picked, do something hysterical!", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "Xi Ping",
+                             "response": { 
+                                  "text": "Xi Ping chosed, stand next to him with a poker face", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+
+              }
+         ]
+    },
+    {
+         "id" : "stage2",
+         "startMessage" : {
+              "text" : "WELCOME TO EUROPE!! OMLETTE AU FROMAGE! ",
+              "mediaUrl" : null
+         },
+         "endMessage" : {
+              "text" : "You've finished with Europe! What's next?➡️",
+              "mediaUrl" : null
+         },
+         "nextStages" : ["stage1", "stage3", "stage5"],
+         "challenges": [
+              {
+                   "id" : "challenge2_1",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Leftwing or rightwing, dab in the way you like the most with:",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Mélanchon",
+                             "response" : {
+                                  "text" : "MA PERSONNE EST SACREE!",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Salvini",
+                             "response": { 
+                                  "text": "Les ports sont fermés", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "Pepe Grillo",
+                             "response": { 
+                                  "text": "Humour", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              },
+              {
+                   "id" : "challenge2_2",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Which arrondissement do you want to visit :",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "15e",
+                             "response" : {
+                                  "text" : "15e was picked, Heil Europa",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "16e",
+                             "response": { 
+                                  "text": "16e was picked, Heil France", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "17e",
+                             "response": { 
+                                  "text": "17e was picked, take a bier with him", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "18e",
+                             "response": { 
+                                  "text": "18e was picked, BREXIT QUICK", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              },
+              {
+                   "id" : "challenge2_3",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Which arrondissement do you want to visit :",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "13e",
+                             "response" : {
+                                  "text" : "13e was picked, let's go eat some ramen with Jackie Chan",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "16e",
+                             "response": { 
+                                  "text": "16e was picked, Heil France", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "17e",
+                             "response": { 
+                                  "text": "17e was picked, take a bier with him", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "18e",
+                             "response": { 
+                                  "text": "18e was picked, BREXIT QUICK", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              }
+         ]
+    },
+    {
+         "id" : "stage3",
+         "startMessage" : {
+              "text" : "WELCOME IN THE POP-ROCK ZONE 🎤! OH YEAH!!!",
+              "mediaUrl" : null
+         },
+         "endMessage" : {
+              "text" : "You've finished with the pop-rock zone 🎤! What's next?➡️",
+              "mediaUrl" : null
+         },
+         "nextStages" : ["stage1", "stage4", "stage5"],
+         "challenges": [
+              {
+                   "id" : "challenge3_1",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Leftwing or rightwing, dab in the way you like the most with:",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Bon jovi",
+                             "response" : {
+                                  "text" : "Its my liiiiife! Nice pic",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Madonna",
+                             "response": { 
+                                  "text": "Amazing selfie you did with the queen of pop", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "Beyoncé",
+                             "response": { 
+                                  "text": "Mad respect for the queen B", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              },
+              {
+                   "id" : "challenge3_2",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Get a selfie with one of these singers :",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Lady Gaga",
+                             "response" : {
+                                  "text" : "Mamamamama poker face !!!",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Jay-Z",
+                             "response": { 
+                                  "text": "I got 99 problems but taking an epic selfie ain't one them", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "Michael Jackson",
+                             "response": { 
+                                  "text": "HEEE HEE !!! Nice pic with the king", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "Amy Whinehouse",
+                             "response": { 
+                                  "text": "I won't go go go! Don't do drug kids", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              }
+         ]
+    },
+    {
+         "id" : "stage4",
+         "startMessage" : {
+              "text" : "WELCOME IN MINI-EUROPE!",
+              "mediaUrl" : null
+         },
+         "endMessage" : {
+              "text" : "You've finished with the mini-europe zone! What's next?➡️",
+              "mediaUrl" : null
+         },
+         "nextStages" : ["stage2", "stage3"],
+         "challenges": [
+              {
+                   "id" : "challenge4_1",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Pick a monument from belgium :",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Atomium",
+                             "response" : {
+                                  "text" : "Its not an atom",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Manneken pis",
+                             "response": { 
+                                  "text": "How to extinguish a fire like a boss", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              },
+              {
+                   "id" : "challenge4_2",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "Some french monument if you like ",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Tour Eiffel",
+                             "response" : {
+                                  "text" : "Huhuhu baguette fromage",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Cathédrale notre dame",
+                             "response": { 
+                                  "text": "Quasimodo lived here", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              }
+         ]
+    },
+    {
+         "id" : "stage5",
+         "startMessage" : {
+              "text" : "WELCOME IN SCIENTIESTS ZONE!",
+              "mediaUrl" : null
+         },
+         "endMessage" : {
+              "text" : "You've finished with the science zone! What's next?➡️",
+              "mediaUrl" : null
+         },
+         "nextStages" : ["stage1", "stage2"],
+         "challenges": [
+              {
+                   "id" : "challenge4_1",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "So you're more of a quantum physics kind of person :",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Niels Bohr",
+                             "response" : {
+                                  "text" : "Anyone who is not shocked by quantum theory does not understand it.",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Steven Hawking",
+                             "response": { 
+                                  "text": "They see me rolliiiiin, they hatiiiing", 
+                                  "url": null 
+                             }
+                        },
+                        {
+                             "text": "Erwin Schrodinger",
+                             "response": { 
+                                  "text": "Have you seen my cat?", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              },
+              {
+                   "id" : "challenge4_2",
+                   "type" : "photo_capture",
+                   "startMessage" :  {
+                        "text": "I feel a good chemistry between us ;)",
+                        "mediaUrl": "http://flags.fmcdn.net/data/flags/w580/us.png"
+                   },
+                   "choices" : [
+                        {
+                             "text": "Skip",
+                             "response" : {
+                                  "text" : "Ok no problem we can skip this challenge",
+                                  "url" : null
+                             }
+                        },
+                        {
+                             "text": "Marie Curie",
+                             "response" : {
+                                  "text" : "Shine bright like an URADIUM",
+                                  "url" : "https://gph.is/2aOk7wg"
+                             }
+                        },
+                        {
+                             "text": "Lavoisier",
+                             "response": { 
+                                  "text": "Nothing is lost, nothing is created, everything is transformed", 
+                                  "url": null 
+                             }
+                        }
+                   ]
+              }
+         ]
+    }
+]
