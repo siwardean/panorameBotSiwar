@@ -4,7 +4,7 @@
 // bot.js is your bot's main entry point to handle incoming activities.
 
 const { ActivityTypes } = require('botbuilder');
-const { stages } = require('./data/stages');
+const { stages } = require('./connectionDB/mongodb');
 
 // Turn counter property
 const TURN_COUNTER_PROPERTY = 'turnCounterProperty';
