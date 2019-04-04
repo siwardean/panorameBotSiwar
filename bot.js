@@ -5,6 +5,7 @@
 
 const { ActivityTypes } = require('botbuilder');
 const { stages } = require('./connectionDB/mongodb');
+const Location = require('../../models/location');
 
 // Turn counter property
 const TURN_COUNTER_PROPERTY = 'turnCounterProperty';
@@ -37,6 +38,18 @@ class EchoBot {
             await turnContext.sendActivity(`${ count }: Panora.Me You said "${ turnContext.activity.text }"`);
             var len = stages.length;
             await turnContext.sendActivity(`The scenario is lock and loaded and it contains : ${len} stages`);
+            
+            // Trying to load tussaud's scenario from mongoDB 
+            /* Location.find()
+                .sort({ 'createdOn': -1 })
+                .exec()
+                .then(docs => res.status(200)
+                    .json(docs))
+                .catch(err => res.status(500)
+                    .json({
+                        message: 'Error finding standup notes for team member Id',
+                        error: err
+                    })) */
             // increment and set turn counter.
             await this.countProperty.set(turnContext, count);
         } else {
